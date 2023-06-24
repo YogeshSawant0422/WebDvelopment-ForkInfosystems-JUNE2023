@@ -1,0 +1,68 @@
+Day - Saturday 
+Date - 24 06 2023
+
+ - Previous Review
+ 
+ Whats is the Web Development? 
+ What is mean by HTML, CSS, JavaScript and what are the main frameworks of front end development?
+ What is mean by bootstrap?
+ Which are the main types of programming languages?
+ What is the main use of those programming in market or in our real life?
+ What is mean by FullStack Development? 
+ Javascript Full Stack Concept.
+           - FrontEnd 
+		        HTML
+				CSS  - Bootstrap 
+				JavaScript  - Angular, React, Veu JS 
+						
+		   - Backend 
+		         Databases 
+		   - MiddleWare
+		         C#, Java, Python 
+		   
+ 
+ 1] Procedural Oriented Programming 
+     - C
+ 2] Object Oriented Programming 
+     - CPP
+ 3] Virtual Machine Based Programming 
+     - C#, Java
+ 4] Scripting Programming 
+     - JavaScript, Python 
+	 
+	 HTML 
+	 CSS 
+	 JavaScript 
+	 
+	 18 Tags 
+	 
+	 FileName.html / .htm
+	 
+	 WWW W3C - Tim Berner's Lee 
+	 
+	 1993 - HTML 1.0
+	 1995 - HTML 2.0 
+	 1997 - HTML 3.0 
+	 1999 - HTML 4.0  // HTML Successer (Semantic Tags)
+	 2014 - HTML 5.0  // Stable 
+	 
+	 
+	 
+	 Block Level element 
+	 inline element 
+		
+	 
+	 
+	 
+	 
+	  
+	  
+	
+	  
+	  
+	  
+	 
+
+
+
+     
