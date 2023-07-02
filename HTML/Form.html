@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Fork Infosystems</h1>
+    <form action="Registratio.php" method="">
+        <label for="FName">First Name : </label>
+        <input type="text" name="FirstName" id="FName"><br><br>
+
+        <label for="MName">Middle Name : </label>
+        <input type="text" name="MiddleName" id="MName"><br><br>
+
+        <label for="LName">Last Name : </label>
+        <input type="text" name="LastName" id="LName"><br><br>
+
+        <label for="MobNo">Mobile Number : </label>
+        <input type="number" name="MobileNumber" id="MobNo"><br><br>
+
+        <label for="email">Email Id :</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="Address">Address : </label><br>
+        <textarea name="Address" id="Address" cols="20" rows="3"></textarea><br><br>
+
+        <label>Gender : </label><br>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label>
+
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label>
+
+        <input type="radio" id="Other" name="Gender" value="Other">
+        <label for="Other">Other</label><br><br>
+
+        <label for="State">Select State :</label><br>
+        <select name="SelectedState" id="State">
+            <option value="0">-- Select State --</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Keral">Keral</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Goa">Goa</option>
+        </select><br><br>
+
+        <label for="Language">Select Language :</label><br>
+        <input type="checkbox" name="Lang" value="C" id="CLang">
+        <label for="CLang">C</label>
+        <input type="checkbox" name="Lang" value="CPP" id="CPPLang">
+        <label for="CPPLang">CPP</label>
+        <input type="checkbox" name="Python" value="Python" id="PythonLang">
+        <label for="PythonLang">Python</label>
+        
+        <br><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
