@@ -28,9 +28,5 @@ if($FullName != "" && $MobileNumber != "" && $Address != ""){
     echo '<script>alert("Enter All Data !!!")</script>';
 }
 
-
-
-
-
 mysqli_close($conn);
 ?>
