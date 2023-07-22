@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Designing</title>
+    <style>
+        table, td, th{
+            border-bottom: 1px solid;
+            border-color: white;
+            border-collapse: collapse;
+        }
+        table{
+            width: 50%;
+            margin: auto;
+        }
+        th{
+            padding: 10px;
+            background-color: rgb(165, 42, 42);
+            color: white;
+        }
+        td{
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: rgb(222, 175, 136);
+        }
+        tr:nth-child(odd){
+            background-color: rgb(187, 150, 108);
+        }
+        tr:hover{
+            background-color: rgb(232, 133, 20);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Skechers</td>
+            <td>Pune</td>
+            <td>abc123@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Puma</td>
+            <td>Karad</td>
+            <td>xyz123@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Livise</td>
+            <td>Satara</td>
+            <td>pqr123@gmail.com</td>
+        </tr>
+        <tr>
+            <td>AK</td>
+            <td>Mumbai</td>
+            <td>lmn123@gmail.com</td>
+        </tr>
+    </table>
+</body>
+</html>

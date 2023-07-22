@@ -1,0 +1,40 @@
+/* p{
+    text-align: right;
+    text-decoration: underline;
+} */
+
+ /* *{
+            text-align: center;
+} */
+
+#Demo{
+text-decoration: underline;
+text-align: center;
+color:red; 
+}
+#para01{
+    background-color: aqua;
+}
+.Item-Block{
+    background-color: #aaa;
+    border: 1px solid blue; 
+    padding: 10px;
+}
+.Item-Group{
+    color: white;
+}
+.div-main{
+    background-color: #ccc;
+    border: 1px solid green;
+    padding: 10px;
+}
+h4{
+    color: blueviolet;
+}
+section{
+    border: 1px solid;
+    padding:10px;
+}
+p, h4, h2{
+    text-align: center;
+}
