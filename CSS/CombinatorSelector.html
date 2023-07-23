@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selector</title>
+    <style>
+        body{
+            margin: 20px;
+        }
+        #Container{
+            padding: 15px;
+            border: 2px solid blue;
+        }
+        .Main-Container{
+            border: 2px solid red;
+            margin: 5px;
+            padding: 10px;
+        }
+        .Main-Child-div{
+            display: inline-block;
+            border: 2px solid brown;
+            width: 49%;
+        }
+        #Container>section{
+            border: 1px solid green;
+            padding: 20px;
+        }
+        .main-one p{
+                color: orange;
+                text-align: center;
+                padding: 10px;
+        }
+        section>.Container01{
+            background-color: aqua;
+        }
+        .main div{
+            background-color: gray;
+        }
+        .main div>p{
+            text-align: center;
+            color: white;
+        }
+        section>.Container01{
+
+        }
+        section main{
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Combinator Selectors</h1>
+    <section id="Container">
+        <section class="Container01">
+            <main class="Main-Container main-one">
+                <div id="Div01" class="Main-Child-div">
+                    <p>Demo data 01</p>
+                    <p>Demo data 02</p>
+                    <p>Demo data 03</p>
+                    <p>Demo data 04</p>
+                    <p>Demo Data 05</p>
+                </div>
+                <div class="Main-Child-div">
+                    <p>Text Data 01</p>
+                    <p>Text Data 01</p>
+                    <p>Text Data 01</p>
+                    <p>Text Data 01</p>
+                    <p>Text Data 01</p>
+                </div>
+            </main>
+            <main class="Main-Container main">
+                <div id="Div" class="Main-Child-div">
+                    <p>Demo data 01</p>
+                    <p>Demo data 02</p>
+                    <p>Demo data 03</p>
+                    <p>Demo data 04</p>
+                    <p>Demo Data 05</p>
+                </div>
+                <div class="Main-Child-div">
+                    <p>Text Data 01</p>
+                    <p>Text Data 01</p>
+                    <p>Text Data 01</p>
+                    <p>Text Data 01</p>
+                    <p>Text Data 01</p>
+                </div>
+            </main>
+        </section>
+        <section class="Container02">
+                <article>
+                    <img src="../Dhoni.jpg" alt="MSD" height="100px" width="100px">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum ducimus natus voluptas voluptatem sapiente hic reprehenderit eos nulla ipsa repudiandae dolores ullam iusto, sit perspiciatis aliquid! Dolorem, libero dolore!</p>
+                    </div>
+                </article>
+        </section>
+    </section>
+</body>
+</html>
